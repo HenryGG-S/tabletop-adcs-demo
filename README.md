@@ -1,4 +1,4 @@
-# Tabletop ADCS Demonstrator
+# Tabletop ADCS Demo
 
 A standalone CubeSat-inspired attitude determination and control system (ADCS) bench.
 
