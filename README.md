@@ -10,8 +10,6 @@ Small spacecraft use attitude determination and control systems to estimate and 
 
 The first milestone is a constrained one-axis reaction-wheel pendulum. This reduces the physics to a manageable control problem while still demonstrating the core spacecraft ideas: attitude sensing, actuator authority, controller tuning, disturbance rejection, saturation management, telemetry, and safe behaviour. Later milestones expand the platform toward a cube or gimballed body that can balance on an edge or corner.
 
-The project is intentionally standalone. It may reuse prior embedded-systems experience, but it has its own architecture, requirements, documentation, test plan, and repository.
-
 ## Engineering goals
 
 - Build a visible, testable ADCS demonstrator rather than a purely simulated controls project.
@@ -19,7 +17,7 @@ The project is intentionally standalone. It may reuse prior embedded-systems exp
 - Compare simulated controller performance with measured hardware behaviour.
 - Record useful telemetry: angle, angular rate, wheel speed, control effort, mode, and fault state.
 - Demonstrate safe mode, actuator limiting, and fault response.
-- Produce documentation suitable for a portfolio, including diagrams, test results, plots, and demo video.
+- Produce documentation including diagrams, test results, plots, and demo video.
 
 ## Skills demonstrated
 
@@ -57,7 +55,6 @@ Optional later hardware:
 - Helmholtz coil test setup
 - OLED/LCD local status display
 - Emergency stop switch
-- Ground-station dashboard
 
 ## Safety note
 
